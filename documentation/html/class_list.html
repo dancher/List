@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -68,7 +69,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,41 +88,126 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Класс список  Содержит поля: число элементов в списке-N, номер элемента списка-nomer, значение элемента-element,указатель на следующий элемент-next, указатель на первый-Begin и последний-End элементы  
+<p>РљР»Р°СЃСЃ СЃРїРёСЃРѕРє  РЎРѕРґРµСЂР¶РёС‚ РїРѕР»СЏ: С‡РёСЃР»Рѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ-N, РЅРѕРјРµСЂ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР°-nomer, Р·РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°-element,СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СЌР»РµРјРµРЅС‚-next, СѓРєР°Р·Р°С‚РµР»СЊ РЅР° РїРµСЂРІС‹Р№-Begin Рё РїРѕСЃР»РµРґРЅРёР№-End СЌР»РµРјРµРЅС‚С‹  
  <a href="class_list.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a64d878a92d11f7c63c70cbe4e7dd4176"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64d878a92d11f7c63c70cbe4e7dd4176"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a64d878a92d11f7c63c70cbe4e7dd4176">List</a> ()</td></tr>
-<tr class="memdesc:a64d878a92d11f7c63c70cbe4e7dd4176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Реализация конструктора без параметров <br/></td></tr>
+<tr class="memitem:a64d878a92d11f7c63c70cbe4e7dd4176"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a64d878a92d11f7c63c70cbe4e7dd4176">List</a> ()</td></tr>
+<tr class="memdesc:a64d878a92d11f7c63c70cbe4e7dd4176"><td class="mdescLeft">&#160;</td><td class="mdescRight">РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ  <a href="#a64d878a92d11f7c63c70cbe4e7dd4176">More...</a><br/></td></tr>
 <tr class="separator:a64d878a92d11f7c63c70cbe4e7dd4176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf2a49af5aadd2d625b5a146aff02eaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf2a49af5aadd2d625b5a146aff02eaf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#adf2a49af5aadd2d625b5a146aff02eaf">add</a> (int nomer)</td></tr>
-<tr class="memdesc:adf2a49af5aadd2d625b5a146aff02eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Релизация метода добавления элемента в список  nomer номер добавляемого элемента <br/></td></tr>
+<tr class="memitem:adf2a49af5aadd2d625b5a146aff02eaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#adf2a49af5aadd2d625b5a146aff02eaf">add</a> (int nomer)</td></tr>
+<tr class="memdesc:adf2a49af5aadd2d625b5a146aff02eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">РјРµС‚РѕРґ РґРѕР±Р°РІР»РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° РІ СЃРїРёСЃРѕРє  nomer РЅРѕРјРµСЂ РґРѕР±Р°РІР»СЏРµРјРѕРіРѕ СЌР»РµРјРµРЅС‚Р°  <a href="#adf2a49af5aadd2d625b5a146aff02eaf">More...</a><br/></td></tr>
 <tr class="separator:adf2a49af5aadd2d625b5a146aff02eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e6415dc51974347822d40eab591a62f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e6415dc51974347822d40eab591a62f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a4e6415dc51974347822d40eab591a62f">getElement</a> (int nomer)</td></tr>
-<tr class="memdesc:a4e6415dc51974347822d40eab591a62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Релизация метода получения значения элемента списка по номеру  nomer номер элемента для получения <br/></td></tr>
+<tr class="memitem:a4e6415dc51974347822d40eab591a62f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a4e6415dc51974347822d40eab591a62f">getElement</a> (int nomer)</td></tr>
+<tr class="memdesc:a4e6415dc51974347822d40eab591a62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">РјРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° РїРѕ РЅРѕРјРµСЂСѓ  nomer РЅРѕРјРµСЂ СЌР»РµРјРµРЅС‚Р° РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ  <a href="#a4e6415dc51974347822d40eab591a62f">More...</a><br/></td></tr>
 <tr class="separator:a4e6415dc51974347822d40eab591a62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a28209f5da41dfe8854d988e99b27f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a28209f5da41dfe8854d988e99b27f8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a9a28209f5da41dfe8854d988e99b27f8">del</a> (int nomer)</td></tr>
-<tr class="memdesc:a9a28209f5da41dfe8854d988e99b27f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Релизация метода удаления элемента из списка  nomer номер удаляемого элемента <br/></td></tr>
+<tr class="memitem:a9a28209f5da41dfe8854d988e99b27f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#a9a28209f5da41dfe8854d988e99b27f8">del</a> (int nomer)</td></tr>
+<tr class="memdesc:a9a28209f5da41dfe8854d988e99b27f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">РјРµС‚РѕРґ СѓРґР°Р»РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° РёР· СЃРїРёСЃРєР°  nomer РЅРѕРјРµСЂ СѓРґР°Р»СЏРµРјРѕРіРѕ СЌР»РµРјРµРЅС‚Р°  <a href="#a9a28209f5da41dfe8854d988e99b27f8">More...</a><br/></td></tr>
 <tr class="separator:a9a28209f5da41dfe8854d988e99b27f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac334b7866f8dd21f730442b2553df60f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac334b7866f8dd21f730442b2553df60f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#ac334b7866f8dd21f730442b2553df60f">print</a> ()</td></tr>
-<tr class="memdesc:ac334b7866f8dd21f730442b2553df60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Релизация метода печати списка <br/></td></tr>
+<tr class="memitem:ac334b7866f8dd21f730442b2553df60f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list.html#ac334b7866f8dd21f730442b2553df60f">print</a> ()</td></tr>
+<tr class="memdesc:ac334b7866f8dd21f730442b2553df60f"><td class="mdescLeft">&#160;</td><td class="mdescRight">РјРµС‚РѕРґ РїРµС‡Р°С‚Рё СЃРїРёСЃРєР°  <a href="#ac334b7866f8dd21f730442b2553df60f">More...</a><br/></td></tr>
 <tr class="separator:ac334b7866f8dd21f730442b2553df60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Класс список  Содержит поля: число элементов в списке-N, номер элемента списка-nomer, значение элемента-element,указатель на следующий элемент-next, указатель на первый-Begin и последний-End элементы </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>LIst/list.cpp</li>
+<div class="textblock"><p>РљР»Р°СЃСЃ СЃРїРёСЃРѕРє  РЎРѕРґРµСЂР¶РёС‚ РїРѕР»СЏ: С‡РёСЃР»Рѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ-N, РЅРѕРјРµСЂ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР°-nomer, Р·РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°-element,СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СЌР»РµРјРµРЅС‚-next, СѓРєР°Р·Р°С‚РµР»СЊ РЅР° РїРµСЂРІС‹Р№-Begin Рё РїРѕСЃР»РµРґРЅРёР№-End СЌР»РµРјРµРЅС‚С‹ </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a64d878a92d11f7c63c70cbe4e7dd4176"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List::List </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adf2a49af5aadd2d625b5a146aff02eaf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void List::add </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nomer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>РјРµС‚РѕРґ РґРѕР±Р°РІР»РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° РІ СЃРїРёСЃРѕРє  nomer РЅРѕРјРµСЂ РґРѕР±Р°РІР»СЏРµРјРѕРіРѕ СЌР»РµРјРµРЅС‚Р° </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a28209f5da41dfe8854d988e99b27f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void List::del </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nomer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>РјРµС‚РѕРґ СѓРґР°Р»РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° РёР· СЃРїРёСЃРєР°  nomer РЅРѕРјРµСЂ СѓРґР°Р»СЏРµРјРѕРіРѕ СЌР»РµРјРµРЅС‚Р° </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e6415dc51974347822d40eab591a62f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int List::getElement </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nomer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>РјРµС‚РѕРґ РїРѕР»СѓС‡РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ СЌР»РµРјРµРЅС‚Р° СЃРїРёСЃРєР° РїРѕ РЅРѕРјРµСЂСѓ  nomer РЅРѕРјРµСЂ СЌР»РµРјРµРЅС‚Р° РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ </p>
+
+</div>
+</div>
+<a class="anchor" id="ac334b7866f8dd21f730442b2553df60f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void List::print </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>РјРµС‚РѕРґ РїРµС‡Р°С‚Рё СЃРїРёСЃРєР° </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>List/<a class="el" href="list_8cpp.html">list.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 29 2014 15:15:43 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 29 2014 15:52:58 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

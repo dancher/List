@@ -7,16 +7,18 @@
 
 var indexSectionsWithContent =
 {
-  0: "adglp",
+  0: "adglmp",
   1: "l",
-  2: "adglp"
+  2: "l",
+  3: "adglmp"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "functions"
+  2: "files",
+  3: "functions"
 };
 
 function convertToId(search)

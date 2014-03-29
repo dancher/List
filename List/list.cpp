@@ -3,7 +3,6 @@
 #include "conio.h"
 using namespace std;
 /**
-@class List
 @brief Класс список
 @detailed Содержит поля: число элементов в списке-N, номер элемента списка-nomer,
 значение элемента-element,указатель на следующий элемент-next,
@@ -25,7 +24,7 @@ void del(int nomer);
 void print();
 };
 /**
-@brief Реализация конструктора без параметров
+@brief конструктор без параметров
 */
 List::List()
 {   
@@ -35,7 +34,7 @@ List::List()
 	N=0;
 }
 /**
-@brief Релизация метода добавления элемента в список
+@brief  метод добавления элемента в список
 @params nomer номер добавляемого элемента
 */
 void List::add(int nomer)
@@ -89,7 +88,7 @@ void List::add(int nomer)
 
 }
 /**
-@brief Релизация метода получения значения элемента списка по номеру
+@brief  метод получения значения элемента списка по номеру
 @params nomer номер элемента для получения
 */
 int List::getElement(int nomer)
@@ -102,7 +101,7 @@ int List::getElement(int nomer)
 	}
 }
 /**
-@brief Релизация метода удаления элемента из списка
+@brief  метод удаления элемента из списка
 @params nomer номер удаляемого элемента
 */
 void List::del(int nomer)
@@ -135,7 +134,7 @@ void List::del(int nomer)
 	}
 }
 /**
-@brief Релизация метода печати списка
+@brief метод печати списка
 */
 void List::print()
 {
